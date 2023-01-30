@@ -1,0 +1,12 @@
+.list{
+    width: 700px;
+    padding: 25px 30px;
+    background-color: lightgray;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    border-radius: 10px;
+}

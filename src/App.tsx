@@ -1,10 +1,10 @@
-import Task from './components/Task'
+import TaskList from './components/TaskList'
 import './styles/App.scss'
 
 function App() {
   return (
     <div className="App">
-      <Task text = "trololo" checked={false}/>
+      <TaskList />
     </div>
   )
 }

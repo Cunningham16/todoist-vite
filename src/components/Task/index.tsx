@@ -20,7 +20,7 @@ const Task = ({ text, checked }: taskProps) => {
           checked = {check}
           onClick = {toggleCheck}
         />
-        <p>{text}</p>
+        <p className = {styles.task_text}>{text}</p>
     </div>
   )
 }
