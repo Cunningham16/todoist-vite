@@ -1,9 +1,6 @@
 import { useState } from "react"
 import styles from './styles.module.scss'
-
-interface inputTaskProps {
-    addTask: (text: string) => void;
-}
+import { inputTaskProps } from "../../types"
 
 const InputTask = ({ addTask }: inputTaskProps) => {
     const [taskText, setTaskText] = useState('')

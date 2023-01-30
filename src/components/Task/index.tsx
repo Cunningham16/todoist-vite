@@ -1,11 +1,7 @@
 import Checkbox from '../../ui/Checkbox'
 import { useState } from 'react';
 import styles from './styles.module.scss'
-
-interface taskProps{
-  text: string;
-  checked: boolean;
-}
+import { taskProps } from '../../types';
 
 const Task = ({ text, checked }: taskProps) => {
   const [check, setCheck] = useState(checked)
