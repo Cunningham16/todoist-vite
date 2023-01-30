@@ -18,3 +18,10 @@ export type taskObject = {
   text: string;
   checked: boolean;
 }
+
+export type responseObject = {
+  userId: number,
+  id: number,
+  title: string,
+  completed: boolean
+}
