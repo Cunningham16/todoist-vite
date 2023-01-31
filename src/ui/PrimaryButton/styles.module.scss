@@ -1,0 +1,21 @@
+%primary-button_default{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer
+}
+
+.deny{
+    @extend %primary-button_default;
+    background-color: #f5f5f5;
+}
+
+.apply{
+    @extend %primary-button_default;
+    background-color: #db4c3f;
+    color: white;
+}

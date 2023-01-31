@@ -25,3 +25,9 @@ export type responseObject = {
   title: string,
   completed: boolean
 }
+
+export type primaryButtonProps = {
+  children: any,
+  stylesheet: string
+  onClick?: () => void
+}

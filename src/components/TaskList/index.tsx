@@ -30,7 +30,8 @@ const TaskList = () => {
   }, [])
 
   return (
-    <div className={styles.list}>
+    <div className={styles.container}>
+      <div className={styles.list}>
         <HeaderTaskList />
         <div className={styles.tasks}>
           {isLoading ? 
@@ -42,6 +43,7 @@ const TaskList = () => {
           }
         </div>
         <InputTask addTask={addTask}/>
+    </div>
     </div>
   )
 }
